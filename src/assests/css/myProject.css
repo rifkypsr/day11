@@ -1,0 +1,199 @@
+/* **************************** */
+/****** CSS myproject.html ******/
+/* **************************** */
+
+/* Container form CSS */
+.container2 {
+  width: 100%;
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 500px; /* Lebar maksimum form */
+  padding: 20px;
+}
+
+.container2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-contact2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: bold;
+}
+
+.input-contact2 {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Shadow di dalam input */
+}
+
+.submit-contact2 {
+  background-color: #111727; /* Warna latar belakang button */
+  color: white;
+  width: 30%;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 15px;
+  align-items: end;
+  justify-content: center;
+  margin-left: auto; /* Biar geser kekanan */
+}
+
+.submit-contact2:hover {
+  background-color: #b3aeae; /* Warna saat di-hover */
+}
+
+textarea.input-contact2 {
+  resize: none;
+  height: 150px;
+}
+
+.input-checkbox {
+  margin-right: 10px;
+}
+
+#projectsContainer {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Untuk memastikan item tersebar merata */
+}
+
+.input-file {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.input-file-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* MY PROJECT SECTION */
+.line {
+  display: none; /* Menghilangkan garis pemisah */
+}
+
+.title-list {
+
+}
+.myproject-section h1.title-list {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.project-card {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Tengah konten */
+  justify-content: center; /* Sebar konten secara vertikal */
+  height: auto; /* Tinggi tetap untuk semua card */
+}
+
+.project-card img {
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px; /* Menambahkan tinggi minimum untuk konsistensi */
+  object-fit: cover; /* Menjaga rasio aspek gambar */
+}
+
+.myproject-section{
+  background-color: white;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-card h5, .project-card p {
+  text-align: left; /* Mengatur teks agar rata kiri */
+  width: 100%;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap; /* Untuk memastikan teks terbungkus dengan benar */
+  justify-content: center; /* Untuk memastikan konten dimulai dari kiri */
+  width: 100%; /* Set width to 100% */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.project-technologies span {
+  display: flex;
+  align-items: center;
+  margin: 5px; /* Adjust the margin as needed */
+}
+
+.posted-time {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555; /* Ubah sesuai kebutuhan */
+  text-align: left; /* Menyelaraskan teks di kiri */
+}
+
+.project-actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.button {
+  width: 45%; /* Set the button width to 45% */
+  padding: 10px 20px; /* Adjust padding for bigger buttons */
+  background-color: #111727;
+  color: white;
+  border-radius: 5px; /* Membulatkan ujung tombol */
+  border: none;
+  cursor: pointer;
+  display: flex; /* Menjadikan tombol sebagai flex container */
+  align-items: center; /* Menyelaraskan ikon dan teks di tengah secara vertikal */
+  justify-content: center; /* Menyelaraskan ikon dan teks di tengah secara horizontal */
+  gap: 10px; /* Memberi jarak antara ikon dan teks */
+  font-size: 16px; /* Adjust font size */
+  margin: 10px 10px;
+}
+
+.button:hover {
+  background-color: #b3aeae;
+}
+
+/* Icon untuk button */
+.button.edit::before {
+  content: "\f044"; /* icon kode (pakai fontawesome) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.button.delete::before {
+  content: "\f1f8";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}

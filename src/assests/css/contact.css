@@ -1,0 +1,74 @@
+.container {
+    margin-top: 50px;
+    /* margin-bottom: 1000 px; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container {
+    font-family: "Foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5;
+    font-style: normal;
+  }
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.label-contact{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-contact {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(187, 183, 183);
+    border-color: rgb(19, 20, 65);
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+.submit-contact {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+textarea.input-contact{
+    resize: none;
+    height: 200px;
+}
+
+.submit-contact {
+    background-color: #423d3d; 
+    color: #fcfafa; 
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+    align-self: flex-end;
+}
+.submit-contact{
+    background-color: #3f3a3a; 
+    color: rgb(250, 244, 244); 
+    border: none; /* Menghilangkan border */
+    padding: 10px 20px; /* Padding untuk tombol */
+    font-size: 16px; 
+    cursor: pointer; /* Pointer cursor saat hover */
+    border-radius: 10px; 
+    display: inline-block; /* Agar berperilaku seperti tombol */
+    text-align: center; /* Pusatkan teks */
+    text-decoration: none; 
+}
+
+.submit-contact:hover{
+    background-color: #3a21c7; 
+    color: rgb(253, 253, 253); 
+}

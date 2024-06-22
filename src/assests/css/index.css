@@ -1,0 +1,79 @@
+/* dibwah ini untuk css na */
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+.active{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.active:hover{
+    color: orange !important;
+}
+
+.btn {
+    border-radius: 15px !important;
+}
+
+.btn:hover {
+    background-color: orange !important;
+    color: rgb(19, 20, 65) !important;
+}   
+
+/* ini bagian card */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    font-size: 20px;
+    text-align: center;
+}
+
+.iconcard i {
+    margin-right: 10px;
+   color: black;
+   
+}
+
+.buttons .btn {
+    width: 40%;
+    margin-right: 30px ;
+}
+
+
+
+ 
+
+
+
+
+
+    
+    
+
+
